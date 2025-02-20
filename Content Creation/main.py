@@ -6,7 +6,7 @@ user_input = str(input("What do you want to do?:"))
 
 client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key="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",
+        api_key="<API-KEY>",
         )
 messages1 = [
         {"role": "system", "content": "You are a helpful assistant"}
