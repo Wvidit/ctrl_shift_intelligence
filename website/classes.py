@@ -2,7 +2,7 @@ from openai import OpenAI
 import streamlit as st
 
 # Constants
-API_KEY = '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'
+API_KEY = st.secrets['API_KEY']
 BASE_URL = "https://openrouter.ai/api/v1"
 # MODEL = "deepseek/deepseek-r1-distill-llama-70b:free"
 MODEL = "deepseek/deepseek-chat:free"
