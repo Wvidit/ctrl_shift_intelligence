@@ -4,6 +4,13 @@ def style():
     
     st.set_page_config(layout="wide")
 
+    # if 'counter' not in st.session_state:
+    #     st.session_state.counter = 1
+    
+    # if (st.session_state.counter%2):
+    #     st.rerun()
+    #     st.session_state+=1
+    
 
     # Custom CSS for styling
     st.markdown(
