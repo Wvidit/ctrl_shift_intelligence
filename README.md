@@ -1,6 +1,6 @@
 # Ctrl Shift Intelligence
 
-The repository showcases our solutions in the domains of education, content creation and business for ctrl shift intelligence
+The repository showcases our solutions in the domains of education, content creation and business for ctrl shift intelligence. The app can be accessed at https://ctrl-shift-intelligence.streamlit.app/
 
 ## Overview
 A Streamlit-based web application offering AI-powered solutions across education, content creation, and business domains. Features include topic explanations, question generation, creative writing, and customer support assistance.
