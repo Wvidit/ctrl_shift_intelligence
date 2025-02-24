@@ -33,7 +33,7 @@ A Streamlit-based web application offering AI-powered solutions across education
 
 
 
-# Installation and Setup (Linux)
+# Installation and Setup
 
 1. Go to [Openrouter](https://openrouter.ai/) and register
 2. Navigate to its [settings](https://openrouter.ai/settings/keys) and create a new API key
