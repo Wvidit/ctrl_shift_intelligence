@@ -47,7 +47,12 @@ if len(st.session_state.chat_history['question_maker'])==2:#    and ( "topic" no
         # Button to submit inputs
         if st.form_submit_button("Submit"):
             if subject and topic:
-                response = initial_question_maker_response(subject=subject, topic=topic, messages=st.session_state.chat_history['question_maker'])
+                response = initial_question_maker_response(
+                    subject=subject, 
+                    topic=topic, 
+                    question_count=question_count,
+                    difficulty=difficulty,                    
+                    messages=st.session_state.chat_history['question_maker'])
             else:
                 response = "Please provide at least one input."
 
