@@ -42,7 +42,7 @@ if len(st.session_state.chat_history['question_maker'])==2:#    and ( "topic" no
         subject = st.text_input("Enter Subject:", key="subject")
         topic = st.text_input("Enter Topic:", key="topic")
         question_count = st.text_input("Number of Questions: ", key='question_count', value='3')
-        diffuculty=st.text_input("Difficulty: ", key='difficulty', value='Moderate')
+        difficulty=st.text_input("Difficulty: ", key='difficulty', value='Moderate')
 
         # Button to submit inputs
         if st.form_submit_button("Submit"):
